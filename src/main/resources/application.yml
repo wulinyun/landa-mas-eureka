@@ -7,7 +7,7 @@ spring:
   mvc:
     throw-exception-if-no-handler-found: true
   application:
-    name: discovery    # 项目名称尽量用小写
+    name: landa-mas-eureka    # 项目名称尽量用小写
 
 eureka:
   client:
