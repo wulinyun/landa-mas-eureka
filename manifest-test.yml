@@ -1,0 +1,7 @@
+---
+applications:
+- name: landa-mas-eureka-test
+  memory: 1024M
+  path: target/landa-mas-eureka.jar
+  host: landa-mas-eureka-test
+  domain: landaudev.com
