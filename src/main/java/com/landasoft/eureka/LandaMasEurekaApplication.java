@@ -1,10 +1,10 @@
-package com.landasoft.mas;
+package com.landasoft.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.landasoft")
 @EnableEurekaServer
 public class LandaMasEurekaApplication {
 
