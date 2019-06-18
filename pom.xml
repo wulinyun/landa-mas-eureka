@@ -69,11 +69,11 @@
     </dependencies>
 
     <repositories>
-        <repository>
+        <!--<repository>
             <id>landa-mas</id>
             <name>landa-mas Repository</name>
             <url>http://maven.landaudev.com:9527/nexus/content/groups/public/</url>
-        </repository>
+        </repository>-->
     </repositories>
 
     <build>
